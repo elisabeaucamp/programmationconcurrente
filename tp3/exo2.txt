@@ -1,0 +1,4 @@
+c'est un fichier texte
+provenant de l'exo 2
+je suis en tp3
+en CS-PC
