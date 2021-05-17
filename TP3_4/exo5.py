@@ -1,5 +1,5 @@
 import os, sys, signal, time
-def arreter_programme(signal,frame) :
+def arreter_programme(s,frame) :
     print("un signal a ete recu")
     sys.exit(0)
 

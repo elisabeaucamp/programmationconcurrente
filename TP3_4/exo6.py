@@ -3,7 +3,7 @@ def arreter_programme(signal,frame) :
     print("un signal a ete recu")
     sys.exit(0)
 
-def freception(10,frame) :
+def freception(s,frame) :
     print("signal recu")
     signal.signal(signal.SIGINT,freception)
     sys.exit(0)
@@ -22,4 +22,4 @@ else :
         time.sleep(1)
         print("une seconde de plus du fiston")
     
-sys.exit(0)                                                           
+sys.exit(0)         
